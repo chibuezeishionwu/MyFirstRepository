@@ -25,6 +25,7 @@ h1 {
 }
 h2 {
   font-size: 30px;
+
 }
 h1, h2 {
   font-family: 'Courgette', cursive;
@@ -52,6 +53,15 @@ h3 {
 .divider > section:last-of-type {
   border-bottom: none;
 }
+.contact-info-heading {
+  color: rgb(34, 34, 146);
+  margin-top: 10px;
+  padding-top: 40px;
+}
+#contact-info-list {
+  margin-top: 0;
+  padding-top: 0;
+}
 
 
 
@@ -62,7 +72,7 @@ header {
   color: #F7FFF7;
 }
 a {
-  color: #FFE66D;
+  color: rgb(34, 34, 146);
 }
 a:hover {
   text-decoration: none;
