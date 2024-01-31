@@ -22,13 +22,14 @@ h2 {
     font-size: 24px;
 }
 
-.thanks {
+.box {
     font-size: 24px;
-    text-align: center;
-    margin: auto;
-    min-width: none;
-    padding: 400px;
-    display: inline-block;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    padding-top: 325px;
 }
 
 .container {
