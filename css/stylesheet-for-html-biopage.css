@@ -2,7 +2,8 @@ body {
     background-color: #efeee7;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #333333;
-    margin: 0; padding: 0;
+    margin: 0; 
+    padding: 0;
     line-height: 1.5em;
 
 }
@@ -21,9 +22,20 @@ h2 {
     font-size: 24px;
 }
 
+.thanks {
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    min-width: none;
+    padding: 400px;
+    display: inline-block;
+}
+
 .container {
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
+    width: 85%;
+    padding: 60px 0;
 }
 
 #bio-image {
